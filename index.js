@@ -6,8 +6,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { Student } from "./models/students.js";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+
 
 mongoose.set('strictQuery', true);
 mongoose.connect('mongodb://127.0.0.1:27017/Sterch');
