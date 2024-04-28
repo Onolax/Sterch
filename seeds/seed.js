@@ -6,7 +6,7 @@ mongoose.set('strictQuery', true);
 mongoose.connect('mongodb://127.0.0.1:27017/Sterch');
 
 const sample =  array => array[Math.floor(Math.random()*array.length)]
-const branchs = ['EE', 'CSE', 'MECH'];
+const branchs = ['EE', 'CSE', 'MECH', 'CE', 'CHE', 'AE'];
 const gender = ['M', 'F'];
 
 const seed = async () => {
